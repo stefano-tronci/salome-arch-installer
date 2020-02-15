@@ -12,8 +12,10 @@ On the other hand, the Salome website offers an universal Linux precompiled bina
 ## Prerequisites
 The universal salome installer only support 64 bit machines. Before installing, install the following pakages: python, python2 and gconf:
 ```bash
-pacman -S python python2 gconf
+pacman -S python python2
 ```
+gconf is available on the [AUR](https://aur.archlinux.org/packages/gconf/).
+
 Then, clone this repo:
 ```bash
 git clone https://github.com/CrocoDuckoDucks/salome-arch-installer.git
@@ -31,7 +33,7 @@ chmod +x install.sh
 ./install.sh
 ```
 ## A Note About Tagged Versions
-Every time I test this script with a certain version of Salome, and find it seems to work OK, I will tag a matching version. For example, the version 9.3.0 is tested on Salome 9.3.0
+Every time I test this script with a certain version of Salome, and find it seems to work OK, I will tag a matching version. For example, the version 9.3.0 is tested on Salome 9.3.0.
 
 ## DISCLAIMER!
 I am not able to assess whether Salome as installed with this script works 100% correctly. Use at your own risk!
